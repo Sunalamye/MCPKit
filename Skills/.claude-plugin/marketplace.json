@@ -1,0 +1,22 @@
+{
+  "name": "mcpkit-skills",
+  "owner": {
+    "name": "MCPKit",
+    "email": "sunalamye@pm.me"
+  },
+  "metadata": {
+    "description": "Skills for MCPKit Swift package - MCP tool server framework",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "mcpkit-guide",
+      "description": "Guide for building MCP tool servers with MCPKit. Use when creating MCP servers, defining tools, or integrating MCP protocol into Swift projects.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/mcpkit-guide"
+      ]
+    }
+  ]
+}
