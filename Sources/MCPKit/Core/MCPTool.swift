@@ -28,6 +28,7 @@ public protocol MCPTool {
     /// 執行工具
     /// - Parameter arguments: 調用參數
     /// - Returns: 執行結果（會被序列化為 JSON）
+    @MainActor
     func execute(arguments: [String: Any]) async throws -> Any
 }
 
