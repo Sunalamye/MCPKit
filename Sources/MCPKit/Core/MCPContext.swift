@@ -13,7 +13,8 @@ import Foundation
 /// MCP 工具執行上下文
 /// 提供工具執行所需的所有依賴
 /// 應用程式需要實現此協議來提供具體功能
-public protocol MCPContext: AnyObject {
+@MainActor
+public protocol MCPContext: AnyObject, Sendable {
     /// 伺服器埠號
     var serverPort: UInt16 { get }
 

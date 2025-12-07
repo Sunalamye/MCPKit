@@ -23,6 +23,7 @@ public protocol MCPTool {
     static var inputSchema: MCPInputSchema { get }
 
     /// 使用上下文初始化工具
+    @MainActor
     init(context: MCPContext)
 
     /// 執行工具
