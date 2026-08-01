@@ -15,6 +15,6 @@ import Foundation
 
 // 版本資訊
 public enum MCPKit {
-    public static let version = "1.0.0"
+    public static let version = "0.2.1"
     public static let protocolVersion = "2025-03-26"
 }
